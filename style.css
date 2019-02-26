@@ -33,9 +33,13 @@
 article{
     background-color: aliceblue;
 }
+img{
+    opacity: 0.7;
+}
 img:hover{
     transition:1s;
     width: 90%;
+    opacity: 1;
 }
 @keyframes animTitre {
     from {background-color: rgba(0, 0, 0, 0); margin-left: 15%;}

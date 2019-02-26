@@ -16,7 +16,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    animation: animTitre 1s;
 }
+@keyframes animTitre {
+    from {background-color: rgba(0, 0, 0, 0); margin-left: 15%;}
+    to {background-color: azure;margin-left: 0%;}
+  }
 .site-branding > .site-title{
     background-color: azure;
 }
@@ -28,5 +33,5 @@ article{
 }
 img:hover{
     transition:1s;
-    width: 280px;
+    width: 90%;
 }

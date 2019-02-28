@@ -27,11 +27,15 @@
     margin-left: 35%;
     animation: animSoutTitre 3s;
     position: absolute;
-    color: white;
+    color: rgb(15, 10, 10);
     z-index: 9;
 }
 article{
     background-color: aliceblue;
+}
+
+.post{
+    
 }
 img{
     opacity: 0.7;
@@ -48,4 +52,18 @@ img:hover{
 @keyframes animSoutTitre {
     from {margin-top: 15%;color: rgba(255, 255, 255, 0)}
     to {margin-top: 0%; color:white;}
+  }
+  
+  /* Grands écrans */
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
+  
+  /* Format tablette */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
   }

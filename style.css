@@ -54,8 +54,9 @@ main {
       "article article article article"
       "article article article article";
   }
-  .article a {
+  h2 a {
     justify-self: start;
+    font-size: 15px !important;
   }
 @keyframes animTitre {
     from {background-color: rgba(0, 0, 0, 0); margin-left: 15%;}

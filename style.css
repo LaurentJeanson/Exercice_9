@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
  Theme Name:   Twenty Nineteen Enfant
  Theme URI:    http://example.com/twenty-fifteen-child/
@@ -11,6 +12,250 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-nineteen-enfant
 */
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+.site-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation: animTitre 1s;
+          animation: animTitre 1s;
+}
+
+.entry-title {
+  font-size: 15px;
+}
+
+.site-branding > .site-title {
+  background-color: azure;
+}
+
+.entry .entry-title {
+  text-align: center;
+  margin-left: 35%;
+  -webkit-animation: animSoutTitre 3s;
+          animation: animSoutTitre 3s;
+  position: absolute;
+  color: #0f0a0a;
+  z-index: 9;
+}
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+      grid-template-areas: "article article article article" "article article article article" "article article article article";
+}
+
+h2 a {
+  -ms-grid-column-align: start;
+      justify-self: start;
+  font-size: 15px !important;
+}
+
+@-webkit-keyframes animTitre {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 15%;
+  }
+  to {
+    background-color: azure;
+    margin-left: 0%;
+  }
+}
+
+@keyframes animTitre {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 15%;
+  }
+  to {
+    background-color: azure;
+    margin-left: 0%;
+  }
+}
+
+@-webkit-keyframes animSoutTitre {
+  from {
+    margin-top: 15%;
+    color: rgba(255, 255, 255, 0);
+  }
+  to {
+    margin-top: 0%;
+    color: white;
+  }
+}
+
+@keyframes animSoutTitre {
+  from {
+    margin-top: 15%;
+    color: rgba(255, 255, 255, 0);
+  }
+  to {
+    margin-top: 0%;
+    color: white;
+  }
+}
+
+/* Grands écrans */
+@media screen and (max-width: 992px) {
+  main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 33% 33% 33%;
+        grid-template-columns: 33% 33% 33%;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "article article article" "article article article"  "article article article";
+  }
+}
+
+/* Format tablette */
+@media screen and (max-width: 600px) {
+  main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "article article" "article article" "article article";
+  }
+}
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+.site-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation: animTitre 1s;
+          animation: animTitre 1s;
+}
+
+.entry-title {
+  font-size: 15px;
+}
+
+.site-branding > .site-title {
+  background-color: azure;
+}
+
+.entry .entry-title {
+  text-align: center;
+  margin-left: 35%;
+  -webkit-animation: animSoutTitre 3s;
+          animation: animSoutTitre 3s;
+  position: absolute;
+  color: #0f0a0a;
+  z-index: 9;
+}
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+      grid-template-areas: "article article article article" "article article article article" "article article article article";
+}
+
+h2 a {
+  -ms-grid-column-align: start;
+      justify-self: start;
+  font-size: 15px !important;
+}
+
+@keyframes animTitre {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 15%;
+  }
+  to {
+    background-color: azure;
+    margin-left: 0%;
+  }
+}
+
+@keyframes animSoutTitre {
+  from {
+    margin-top: 15%;
+    color: rgba(255, 255, 255, 0);
+  }
+  to {
+    margin-top: 0%;
+    color: white;
+  }
+}
+
+/* Grands écrans */
+@media screen and (max-width: 992px) {
+  main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 33% 33% 33%;
+        grid-template-columns: 33% 33% 33%;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "article article article" "article article article"  "article article article";
+  }
+}
+
+/* Format tablette */
+@media screen and (max-width: 600px) {
+  main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "article article" "article article" "article article";
+  }
+}
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+/* 
 .site-title{
     display: flex;
     flex-direction: column;
@@ -18,7 +263,9 @@
     justify-content: center;
     animation: animTitre 1s;
 }
-
+.entry-title{
+    font-size: 15px;
+}
 .site-branding > .site-title{
     background-color: azure;
 }
@@ -68,15 +315,32 @@ main {
   }
   
   /* Grands écrans */
+/*
 @media screen and (max-width: 992px) {
-    body {
-      background-color: blue;
-    }
+    main {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+          "article article article"
+          "article article article" 
+          "article article article";
+      }
   }
   
   /* Format tablette */
+/*
   @media screen and (max-width: 600px) {
-    body {
-      background-color: olive;
-    }
+        main {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: auto;
+            grid-template-areas: 
+              "article article"
+              "article article"
+              "article article";
+          }
+    
   }
+  */
+/*# sourceMappingURL=style.css.map */

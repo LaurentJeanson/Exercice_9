@@ -1,0 +1,118 @@
+/*
+ Theme Name:   Twenty Nineteen Enfant
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Nineteen Enfant Theme
+ Author:       Laurent Jeanson
+ Author URI:   http://example.com
+ Template:     TwentyNineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-nineteen-enfant
+*/
+
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+
+@import "sass/site/site";
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+@import "sass/site/site";
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+@import "sass/animations/animations";
+ 
+/* 
+.site-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: animTitre 1s;
+}
+.entry-title{
+    font-size: 15px;
+}
+.site-branding > .site-title{
+    background-color: azure;
+}
+.entry .entry-title{
+    text-align: center;
+    margin-left: 35%;
+    animation: animSoutTitre 3s;
+    position: absolute;
+    color: rgb(15, 10, 10);
+    z-index: 9;
+}
+article{
+    background-color: aliceblue;
+}
+
+.post{
+    
+}
+img{
+    opacity: 0.7;
+}
+img:hover{
+    transition:1s;
+    width: 90%;
+    opacity: 1;
+}
+main {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "article article article article"
+      "article article article article"
+      "article article article article";
+  }
+  h2 a {
+    justify-self: start;
+    font-size: 15px !important;
+  }
+@keyframes animTitre {
+    from {background-color: rgba(0, 0, 0, 0); margin-left: 15%;}
+    to {background-color: azure;margin-left: 0%;}
+  }
+@keyframes animSoutTitre {
+    from {margin-top: 15%;color: rgba(255, 255, 255, 0)}
+    to {margin-top: 0%; color:white;}
+  }
+  
+  /* Grands écrans */
+
+  /*
+@media screen and (max-width: 992px) {
+    main {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+          "article article article"
+          "article article article" 
+          "article article article";
+      }
+  }
+  
+  /* Format tablette */
+  /*
+  @media screen and (max-width: 600px) {
+        main {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: auto;
+            grid-template-areas: 
+              "article article"
+              "article article"
+              "article article";
+          }
+    
+  }
+  */

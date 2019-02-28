@@ -22,7 +22,7 @@
 	</header><!-- .entry-header -->
 
 	<?php twentynineteen_post_thumbnail(); ?>
-	<footer class="entry-footer">
+	<!--  <footer class="entry-footer">
 		<?php twentynineteen_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	</footer>--><!-- .entry-footer -->
 </article><!-- #post-${ID} -->

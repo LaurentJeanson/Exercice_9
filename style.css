@@ -57,20 +57,36 @@
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/
-main {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 25% 25% 25% 25%;
-      grid-template-columns: 25% 25% 25% 25%;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
-      grid-template-areas: "article article article article" "article article article article" "article article article article";
-}
-
 h2 a {
   -ms-grid-column-align: start;
       justify-self: start;
   font-size: 15px !important;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding-top: 10px;
+}
+
+.box {
+  background-color: #445ad6;
+  border-radius: 5px;
+  border: 5px inset #74b8f0;
+  padding: 20px;
+  font-size: 50%;
+  text-align: center;
+}
+
+.box a {
+  color: #ffffff;
+}
+
+.box .entry-title::before {
+  content: none;
 }
 
 @-webkit-keyframes animTitre {
@@ -118,31 +134,18 @@ h2 a {
 }
 
 /* Grands écrans */
-@media screen and (max-width: 992px) {
-  main {
+@media screen and (min-width: 992px) {
+  .wrapper {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 33% 33% 33%;
-        grid-template-columns: 33% 33% 33%;
-    -ms-grid-rows: auto;
-        grid-template-rows: auto;
-        grid-template-areas: "article article article" "article article article"  "article article article";
+    grid-gap: 10px;
+    -ms-grid-columns: (minmax(400px, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    padding-top: 10px;
   }
 }
 
 /* Format tablette */
-@media screen and (max-width: 600px) {
-  main {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 50% 50%;
-        grid-template-columns: 50% 50%;
-    -ms-grid-rows: auto;
-        grid-template-rows: auto;
-        grid-template-areas: "article article" "article article" "article article";
-  }
-}
-
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/
@@ -188,20 +191,36 @@ h2 a {
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/
-main {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 25% 25% 25% 25%;
-      grid-template-columns: 25% 25% 25% 25%;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
-      grid-template-areas: "article article article article" "article article article article" "article article article article";
-}
-
 h2 a {
   -ms-grid-column-align: start;
       justify-self: start;
   font-size: 15px !important;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding-top: 10px;
+}
+
+.box {
+  background-color: #445ad6;
+  border-radius: 5px;
+  border: 5px inset #74b8f0;
+  padding: 20px;
+  font-size: 50%;
+  text-align: center;
+}
+
+.box a {
+  color: #ffffff;
+}
+
+.box .entry-title::before {
+  content: none;
 }
 
 @keyframes animTitre {
@@ -227,31 +246,18 @@ h2 a {
 }
 
 /* Grands écrans */
-@media screen and (max-width: 992px) {
-  main {
+@media screen and (min-width: 992px) {
+  .wrapper {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 33% 33% 33%;
-        grid-template-columns: 33% 33% 33%;
-    -ms-grid-rows: auto;
-        grid-template-rows: auto;
-        grid-template-areas: "article article article" "article article article"  "article article article";
+    grid-gap: 10px;
+    -ms-grid-columns: (minmax(400px, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    padding-top: 10px;
   }
 }
 
 /* Format tablette */
-@media screen and (max-width: 600px) {
-  main {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 50% 50%;
-        grid-template-columns: 50% 50%;
-    -ms-grid-rows: auto;
-        grid-template-rows: auto;
-        grid-template-areas: "article article" "article article" "article article";
-  }
-}
-
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/

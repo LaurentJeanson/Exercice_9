@@ -10,8 +10,8 @@
  */
 
 ?>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<div class="box">
+<article id="post-<?php the_ID();?>" class="cours" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
 		if ( is_sticky() && is_home() && ! is_paged() ) {
@@ -22,7 +22,13 @@
 	</header><!-- .entry-header -->
 
 	<?php twentynineteen_post_thumbnail(); ?>
-	<!--  <footer class="entry-footer">
+
+	<!--<div class="entry-content">
+		<?php the_excerpt(); ?>
+	</div>--><!-- .entry-content -->
+
+	<!--<footer class="entry-footer">
 		<?php twentynineteen_entry_footer(); ?>
 	</footer>--><!-- .entry-footer -->
 </article><!-- #post-${ID} -->
+</div>

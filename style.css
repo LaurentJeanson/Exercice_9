@@ -78,6 +78,18 @@ h2 a {
 .session1 a{
   color: black !important;
 }
+.session2 {
+  background-color: #adb2ce !important;
+}
+.session2 a{
+  color: rgb(46, 46, 46) !important;
+}
+.session3 {
+  background-color: #8a94cc !important;
+}
+.session3 a{
+  color: rgb(82, 82, 82) !important;
+}
 .box {
   background-color: #445ad6;
   border-radius: 5px;

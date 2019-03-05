@@ -72,6 +72,12 @@ h2 a {
   padding-top: 10px;
 }
 
+.session1 {
+  background-color: white !important;
+}
+.session1 a{
+  color: black !important;
+}
 .box {
   background-color: #445ad6;
   border-radius: 5px;
@@ -204,6 +210,10 @@ h2 a {
   -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   padding-top: 10px;
+}
+
+.session1 {
+  background-color: white;
 }
 
 .box {
